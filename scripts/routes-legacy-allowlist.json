@@ -3716,6 +3716,14 @@
     {
       "method": "POST",
       "path": "/api/rooms/{id}/matchmaking/decisions/{id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rooms/{id}/members/{id}/card"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rooms/{id}/directory/seed"
     }
   ],
   "routes": [
@@ -7206,6 +7214,14 @@
     {
       "method": "POST",
       "path": "/api/rooms/{id}/matchmaking/decisions/{id}"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rooms/{id}/members/{id}/card"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rooms/{id}/directory/seed"
     }
   ]
 }
