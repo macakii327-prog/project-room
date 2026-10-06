@@ -1,1 +1,1 @@
-{"quarantined":[]}
+{"quarantined":[{"owner":"jill","quarantined_at":"2026-10-05","reason":"p95 timing assertion (list p95 < 50 ms over 10 samples) fails non-deterministically on loaded/slow VMs; reproduced 2026-10-05 failing 5 of 7 runs on pristine main (e.g. `list p95 58.3 ms`). All functional board assertions stay in the blocking suite; only the timing assertion is quarantined.","repair_by":"2026-10-19","test":"tests/work-claim-integrity.test.js > the Board list endpoint p95 stays under the 50 ms budget"}]}
